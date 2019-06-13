@@ -1,3 +1,20 @@
-.list__item {
-  list-style: none;
+body {
+  max-width: 640px;
+  margin: auto;
+}
+h1 {
+  font-family: serif;
+}
+#mv {
+  max-width: 640px;
+  margin: auto;
+}
+#mv img {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s ease-in;
+}
+#mv img:hover {
+  transform: scale(10);
+  transition: all 0.5s ease-in;
 }
